@@ -1,0 +1,22 @@
+page-search {
+
+  .yun-tags-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+    margin-left: 10px;
+  }
+
+  .yun-tags {
+    width: auto;
+    margin-top: 12px;
+    margin-left: 2px;
+  }
+
+  hr{
+    height: 1px;
+    margin: 5px;
+  }
+}

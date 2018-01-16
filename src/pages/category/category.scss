@@ -1,0 +1,19 @@
+page-category {
+
+  .yun-catgory-left {
+    border-right: 1px solid #b2b2b2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    overflow: scroll;
+  }
+
+  .yun-category-right{
+    flex-direction: column;
+    justify-content: start;
+    align-items: left;
+  }
+
+
+}

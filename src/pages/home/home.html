@@ -1,14 +1,159 @@
+<!--
+  Generated template for the HomePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
 <ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-navbar>
+
+  <ion-toolbar>
+    <ion-row>
+      <ion-col col-2 class="yun-home-head">
+        <ion-icon name="qr-scanner" class="yun-home-head-icon"></ion-icon>
+      </ion-col>
+      <ion-col col-8 text-center>
+        <ion-searchbar ionCancel class="yun-home-head" (click)="gotoSearch()" (ionInput)="cancelInput()" [(ngModel)]="homeInput"></ion-searchbar>
+      </ion-col>
+      <ion-col col-2 class="yun-home-head">
+        <ion-icon name="list" class="yun-home-head-icon"></ion-icon>
+      </ion-col>
+    </ion-row>
+  </ion-toolbar>
+
 </ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+
+<ion-content>
+
+  <!-- banner -->
+  <banner></banner>
+
+
+  <!-- 模块按钮 -->
+  <div class="yun-module-btn-box" style="background-color: #d9d9d9">
+    <div class="yun-module-btn-item">
+      <img src="../../assets/images/google.png">
+      <span>按钮1</span>
+    </div>
+    <div class="yun-module-btn-item">
+      <img src="../../assets/images/google.png">
+      <span>按钮1</span>
+    </div>
+    <div class="yun-module-btn-item">
+      <img src="../../assets/images/google.png">
+      <span>按钮1</span>
+    </div>
+    <div class="yun-module-btn-item">
+      <img src="../../assets/images/google.png">
+      <span>按钮1</span>
+    </div>
+    <div class="yun-module-btn-item">
+      <img src="../../assets/images/google.png">
+      <span>按钮1</span>
+    </div>
+    <div class="yun-module-btn-item">
+      <img src="../../assets/images/google.png">
+      <span>按钮1</span>
+    </div>
+    <div class="yun-module-btn-item">
+      <img src="../../assets/images/google.png">
+      <span>按钮1</span>
+    </div>
+    <div class="yun-module-btn-item">
+      <img src="../../assets/images/google.png">
+      <span>按钮1</span>
+    </div>
+    <div class="yun-module-btn-item">
+      <img src="../../assets/images/google.png">
+      <span>按钮1</span>
+    </div>
+    <div class="yun-module-btn-item">
+      <img src="../../assets/images/google.png">
+      <span>按钮1</span>
+    </div>
+  </div>
+
+
+  <div>
+    <ion-row>
+      <ion-col col-6>
+        <img src="http://placehold.it/640x320&text=AD" alt="">
+      </ion-col>
+      <ion-col col-6>
+        <img src="http://placehold.it/640x320&text=AD" alt="">
+      </ion-col>
+    </ion-row>
+  </div>
+
+
+  <!-- 瀑布流 -->
+  <div>
+    <div style="text-align: center">
+      <p>——优选单品——</p>
+    </div>
+    <div class="demo-waterfall" style="column-count: 2;column-gap: 10px">
+      <div class="demo-waterfall-image">
+        <img src="http://placehold.it/640x320&text=waterfall" alt="">
+      </div>
+      <div class="demo-waterfall-image">
+        <img src="http://placehold.it/640x640&text=waterfall" alt="">
+      </div>
+      <div class="demo-waterfall-image">
+        <img src="http://placehold.it/320x640&text=waterfall" alt="">
+      </div>
+      <div class="demo-waterfall-image">
+        <img src="http://placehold.it/250x320&text=waterfall" alt="">
+      </div>
+      <div class="demo-waterfall-image">
+        <img src="http://placehold.it/320x320&text=waterfall" alt="">
+      </div>
+      <div class="demo-waterfall-image">
+        <img src="http://placehold.it/220x320&text=waterfall" alt="">
+      </div>
+      <div class="demo-waterfall-image">
+        <img src="http://placehold.it/640x320&text=waterfall" alt="">
+      </div>
+      <div class="demo-waterfall-image">
+        <img src="http://placehold.it/240x320&text=waterfall" alt="">
+      </div>
+      <div class="demo-waterfall-image">
+        <img src="http://placehold.it/640x640&text=waterfall" alt="">
+      </div>
+      <div class="demo-waterfall-image">
+        <img src="http://placehold.it/640x620&text=waterfall" alt="">
+      </div>
+      <div class="demo-waterfall-image">
+        <img src="http://placehold.it/640x520&text=waterfall" alt="">
+      </div>
+      <div class="demo-waterfall-image">
+        <img src="http://placehold.it/340x320&text=waterfall" alt="">
+      </div>
+      <div class="demo-waterfall-image">
+        <img src="http://placehold.it/640x320&text=waterfall" alt="">
+      </div>
+      <div class="demo-waterfall-image">
+        <img src="http://placehold.it/190x320&text=waterfall" alt="">
+      </div>
+      <div class="demo-waterfall-image">
+        <img src="http://placehold.it/440x320&text=waterfall" alt="">
+      </div>
+      <div class="demo-waterfall-image">
+        <img src="http://placehold.it/640x320&text=waterfall" alt="">
+      </div>
+      <div class="demo-waterfall-image">
+        <img src="http://placehold.it/240x320&text=waterfall" alt="">
+      </div>
+      <div class="demo-waterfall-image">
+        <img src="http://placehold.it/280x320&text=waterfall" alt="">
+      </div>
+      <div class="demo-waterfall-image">
+        <img src="http://placehold.it/340x320&text=waterfall" alt="">
+      </div>
+      <div class="demo-waterfall-image">
+        <img src="http://placehold.it/640x320&text=waterfall" alt="">
+      </div>
+    </div>
+  </div>
+
+
 </ion-content>
